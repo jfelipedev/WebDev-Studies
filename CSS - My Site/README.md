@@ -3,7 +3,7 @@
 
 # Skills
 
-* Basic HTML and CSS skills utilized to build up the page;
+* Basic HTML and CSS skills were used to build up the page;
 * No responsiveness so far;
 * Lorem ipsum content;
 * Links to social medias are working.
