@@ -9,7 +9,6 @@ font: normal 15px Arial;
 color: #4B6587;
 }
 .topo{
-
 background-color: #4B6587;
 text-align: center;
 color: #F7F6F2;
@@ -19,11 +18,12 @@ input{
   margin-bottom: 10px;
 }
 .corpo{
+
 border-radius: 10px;
 background-color: #e4e4e4;
 padding:15px;
 width: 500px;
-margin: auto;
+margin: 20px auto;
 text-align: center;
 box-shadow: 3px 3px 7px #1b1b1b;
 }
