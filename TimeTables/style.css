@@ -1,0 +1,49 @@
+*, *::after, *::before{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+background-color: #F7F6F2;
+font: normal 15px Arial;
+color: #4B6587;
+}
+.topo{
+  background-color: #4B6587;
+  text-align: center;
+  color: #F7F6F2;
+}
+input{
+  margin-bottom: 10px;
+}
+
+.corpo{
+border-radius: 10px;
+background-color: #e4e4e4;
+padding:15px;
+width: 500px;
+margin: auto;
+text-align: center;
+box-shadow: 3px 3px 7px #1b1b1b;
+margin: 20px auto;
+}
+
+#res{
+text-align: center;
+
+}
+
+.pe{
+  position: absolute;
+  background-color: #F0E5CF;
+  height: 3rem;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+#times{
+  width: 120px;
+  text-align: center;
+}
