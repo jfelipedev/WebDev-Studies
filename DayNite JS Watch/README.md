@@ -4,7 +4,7 @@
 
 Through native JS methods (getHours() and getMinutes()) I developed a "dynamic watch" as an exercise. The watch checks in real time the hours and throw a msg with the time and an img that represents that moment of the day (morngin, afternoon or night)
 
-# Print
+# Prints
 
 ![image](https://user-images.githubusercontent.com/86390899/160009892-56b6a4fd-cfa5-44a9-b5ad-36e78b22b719.png)
 
