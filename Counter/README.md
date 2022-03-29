@@ -1,13 +1,14 @@
-# A Dynamic "watch" with JS 
+# Interval Counter
 	
 # Description
 
-Through native JS methods (getHours() and getMinutes()) I developed a "dynamic watch" as an exercise. The watch checks in real time the hours and throw a msg with the time and an img that represents that moment of the day (morngin, afternoon or night)
+A simple numerical counter that shows us the interval (that we can choose) between the initial and final number we inserted.
 
 # Print
 
+![image](https://user-images.githubusercontent.com/86390899/160522923-f44f14a8-fbc6-486d-ab25-b23a653dcfce.png)
 
-
+![image](https://user-images.githubusercontent.com/86390899/160522993-0ef78f5d-6a10-4d22-8c8f-563a9d9fe0f9.png)
 
 # Technologies
 * HTML;
