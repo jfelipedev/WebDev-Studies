@@ -4,7 +4,7 @@
 
 An input verifier exercise to practice DOM, by creating new elements dinamically returning images that are related to the supposed age the person would be today, based on the year entered in the input
 
-# Print
+# Prints
 
 ![image](https://user-images.githubusercontent.com/86390899/159720825-a657b360-4438-4591-bcc6-58c610480d8b.png) ![image](https://user-images.githubusercontent.com/86390899/159721053-00511575-8726-43d8-a052-53f7fd423d5f.png)
 
