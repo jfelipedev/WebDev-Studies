@@ -14,13 +14,13 @@ if (hora >= 5 && hora < 12){
   img.src = 'imgs/afternoonweb.png';
   msg.innerHTML = `Boa tarde! Agora são ${hora}:${minuto} horas.`
   document.body.style.background = '#cde4fe'
-}else if (hora >= 16 && hora <= 18) {
+}else if (hora >= 16 && hora < 18) {
   img.src = 'imgs/sunsetweb.png'
-  msg.innerHTML = `Boa tarde! Agora são ${hora}:${minuto} horas..`
+  msg.innerHTML = `Boa tarde! Agora são ${hora}:${minuto} horas.`
   document.body.style.background = '#ff8400'
 } else {
   img.src = 'imgs/nightweb.png'
-  msg.innerHTML = `Boa noite! Agora são ${hora}:${minuto} horas..`
+  msg.innerHTML = `Boa noite! Agora são ${hora}:${minuto} horas.`
   document.body.style.background = '#0e2b2d'
 }
 }
