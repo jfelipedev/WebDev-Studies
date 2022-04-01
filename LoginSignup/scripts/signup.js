@@ -120,7 +120,7 @@ function register() {
 
     //the dalay
     setTimeout(() => {
-      window.location.href = 'index.html'
+      window.location.href = 'https://jfelipedev.github.io/WebDev-Studies/LoginSignup/index.html'
     }, 3000)
   }
   // error msg if the user do not enter valid information 
