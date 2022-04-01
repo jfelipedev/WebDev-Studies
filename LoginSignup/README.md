@@ -1,5 +1,9 @@
 # Signup and Login pages
-	
+
+![1](https://user-images.githubusercontent.com/86390899/161307824-d0e317c3-c236-410e-b130-76235f0af80a.png)
+![2](https://user-images.githubusercontent.com/86390899/161307835-3a4012e8-7c07-4d61-9ace-234091ee2ffa.png)
+![3](https://user-images.githubusercontent.com/86390899/161307847-c171985b-27eb-420d-9938-596a62d1d241.png)
+
 # Description
 
 A simple signup and login system that grats access to a To Do List page.
@@ -25,12 +29,6 @@ The To Do List app screen so far:
 * Its able to identify if the user is logged in or not;
 * If the user is not logged, it redirects you to the login screen;
 * On "Finalizar Sessão" click the token access and the currently user are cleared from the localstorage. 
-
-# Prints
-
-![1](https://user-images.githubusercontent.com/86390899/161307824-d0e317c3-c236-410e-b130-76235f0af80a.png)
-![2](https://user-images.githubusercontent.com/86390899/161307835-3a4012e8-7c07-4d61-9ace-234091ee2ffa.png)
-![3](https://user-images.githubusercontent.com/86390899/161307847-c171985b-27eb-420d-9938-596a62d1d241.png)
 
 # Technologies
 * HTML;
