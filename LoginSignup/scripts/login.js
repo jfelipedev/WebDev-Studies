@@ -37,7 +37,7 @@ function login() {
 
   //Checks if the values placed in the email and password fields are the same as those placed in localstorage during the signup process
   if (email.value == userValidation.email && password.value == userValidation.password && email.value != '' && password.value != '') {
-    window.location.href = 'tarefas.html'
+    window.location.href = 'https://jfelipedev.github.io/WebDev-Studies/LoginSignup/tarefas.html'
 
     // creates a random token so that we can clean it later, to log out the user without losing their registration data
     let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2);
