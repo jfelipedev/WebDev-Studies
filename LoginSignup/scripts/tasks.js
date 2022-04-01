@@ -7,7 +7,7 @@ let userLogged = JSON.parse(localStorage.getItem('userLogged'))
 userName.innerHTML = `${userLogged.name}`
 
 // This IF prevents the user from entering the app's page without log in
-if (localStorage.getItem('token') == null || localStorage.getItem('token') == '') {
+if (localStorage.getItem('token') == null || localStorage.getItem('token') == '' || userLogged.name == null || userLogged.name == '') {
   alert('Você precisa estar logado para acessar essa página!')
   window.location.href = 'https://jfelipedev.github.io/WebDev-Studies/LoginSignup/index.html'
 }
