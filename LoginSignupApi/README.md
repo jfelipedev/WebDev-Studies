@@ -8,22 +8,21 @@
 
 A simple signup and login system that grats access to a To Do List page.
 
-[The signup screen rules and functions]:(https://jfelipedev.github.io/WebDev-Studies/LoginSignup/signup.html)
-* Do not accept numbers in the Name input;
+The signup screen rules and functions:
 * Do not accept less than 3 characters in the Name and Nickname inputs;
 * Regex for email function applied;
 * 6+ characters password only;
 * Data is stored in the browser (localstorage).
 * Data is also stored in [CTD API](https://ctd-todo-api.herokuapp.com/v1)
 
-[The login screen rules and functions:](https://jfelipedev.github.io/WebDev-Studies/LoginSignup/index.html)
+The login screen rules and functions:
 * User can only access the app with the credentials registred on the signup page;
 * Login is only authorized if the data are the same as those registered in the [CTD API](https://ctd-todo-api.herokuapp.com/v1)
 * It checks if the entry information is correct;
 * If the entry information is not correct it tells the user to do entry it correctly;
 * When the entry information is correct the user can enter the app screen;
 
-[The To Do List app screen so far:](https://jfelipedev.github.io/WebDev-Studies/LoginSignup/tarefas.html)
+The To Do List app screen so far:
 * The screen is in progress;
 * Gets access from login page;
 * Shows users names on the screen;
