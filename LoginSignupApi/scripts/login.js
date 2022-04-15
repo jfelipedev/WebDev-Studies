@@ -12,8 +12,8 @@ const urlLogin = 'https://ctd-todo-api.herokuapp.com/v1/users/login';
 
 // function to validate that the data is correct according to what was stored in localstorage and grant the user access to the app
 function login() {
-// 
-let email = inputEmail.value.toLowerCase();
+   // 
+   let email = inputEmail.value.toLowerCase();
    inputEmail.value = email;
    let pass = inputPassword.value
 
@@ -42,6 +42,7 @@ let email = inputEmail.value.toLowerCase();
          })
          .then(info => {
             console.log(info)
+            jwtLaunch(resposta.jwt)
             // alert("Login efetuado com sucesso!")
             location.href = 'tarefas.html';
          })
@@ -51,18 +52,23 @@ let email = inputEmail.value.toLowerCase();
             // alert("Falha no login!")
          });
 
-    // informs the user that the data is incorrect
-  } function errorLogin () {
-    theEmail.setAttribute('style', 'border-color:red')
-    labelEmail.setAttribute('style', 'color:red')
+      function jwtLaunch(jwt) {
+         console.log(jwt);
+         localStorage.setItem("jwt", jwt)
+      }
 
-    password.setAttribute('style', 'border-color:red')
-    labelPassword.setAttribute('style', 'color:red')
+      // informs the user that the data is incorrect
+   } function errorLogin() {
+      theEmail.setAttribute('style', 'border-color:red')
+      labelEmail.setAttribute('style', 'color:red')
 
-    errorMsg.setAttribute('style', 'display: block')
-    errorMsg.innerHTML = `Email ou Senha incorretos!`
+      password.setAttribute('style', 'border-color:red')
+      labelPassword.setAttribute('style', 'color:red')
 
-    theEmail.focus()
-  }
+      errorMsg.setAttribute('style', 'display: block')
+      errorMsg.innerHTML = `Email ou Senha incorretos!`
+
+      theEmail.focus()
+   }
 
 }
