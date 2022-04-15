@@ -13,11 +13,11 @@ The signup screen rules and functions:
 * Regex for email function applied;
 * 6+ characters password only;
 * Data is stored in the browser (localstorage).
-* Data is also stored in [CTD API](https://ctd-todo-api.herokuapp.com/v1)
+* Data is also stored in [CTD API](https://ctd-todo-api.herokuapp.com/)
 
 The login screen rules and functions:
 * User can only access the app with the credentials registred on the signup page;
-* Login is only authorized if the data are the same as those registered in the [CTD API](https://ctd-todo-api.herokuapp.com/v1)
+* Login is only authorized if the data are the same as those registered in the [CTD API](https://ctd-todo-api.herokuapp.com/)
 * It checks if the entry information is correct;
 * If the entry information is not correct it tells the user to do entry it correctly;
 * When the entry information is correct the user can enter the app screen;
