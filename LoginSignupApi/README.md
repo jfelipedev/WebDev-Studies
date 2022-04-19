@@ -6,7 +6,7 @@
 
 # Description
 
-A simple signup and login system that grats access to a To Do List page.
+A simple signup and login system that grants access to a To Do List page.
 
 The signup screen rules and functions:
 * Do not accept less than 3 characters in the Name and Nickname inputs;
